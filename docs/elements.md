@@ -47,10 +47,6 @@ Examples:
 
 <docs-warning>`useMatches` only works with a data router like [`createBrowserRouter`][createbrowserrouter], since they know the full route tree up front and can provide all of the current matches. Additionally, `useMatches` will not match down into any descendant route trees since the router isn't aware of the descendant routes.</docs-warning>
 
-<docs-error>Do not do this</docs-error>
-
-<docs-info>The markup for this is kind of ugly, because (currently) these all have to be inside the `<docs-*>` element without any line breaks _but_ it is possible there could be an image inside these. <img src="https://picsum.photos/480/270" width="480" height="270" /></docs-info>
-
 Note: maybe the semantics for these aren't quite right. There might be other nouns that make sense in the case of docs, like:
 
 - `<docs-info>` could become `<docs-tip>`
